@@ -1,0 +1,29 @@
+body {
+    font-family: sans-serif;
+    font-size: 14px;
+    background-color: #eee
+}
+h1 {
+    text-align: center
+}
+.menu_one li{
+    font-style: italic
+}
+.prev{
+    text-align: left
+}
+.home{
+    text-align: center
+}
+.next{
+    text-align: right
+}
+tr {
+    border: none
+}
+img {
+    border: none
+}
+table{
+    width: 100%
+}

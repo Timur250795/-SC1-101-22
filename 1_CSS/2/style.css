@@ -1,0 +1,17 @@
+body{
+
+    width: 720px;height: 510px;
+}
+
+div{
+    text-align: right;
+}
+h3{
+    font-family: 'Bad Script', cursive;
+    text-indent: 1.5em;
+}
+P {
+    font-family: 'Bad Script', cursive;
+    text-indent: 1.5em;
+    text-align: justify;
+}

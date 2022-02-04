@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>menu</title>
+    <style>
+        nav ul {
+            list-style: none;
+        }
+        nav ul li {
+            display: inline-block;
+            position: relative;
+        }
+        .custom-btn {
+            width: 130px;
+            height: 30px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .btn-1:hover {
+            background: #a7a6a6;
+            color: white;
+        }
+        nav ul ul {
+            position: absolute;
+            visibility: hidden;
+            opacity: 0;
+            padding-left: 0;
+        }
+        nav ul li:hover > ul {
+            visibility: visible;
+            opacity: 1;
+            transition: opacity 2s;
+        }
+        @media all and (max-width: 857px) {
+            nav ul li {
+                display: block;
+            }
+            .custom-btn {
+                width: 200px;
+            }
+            nav ul li:hover > ul {
+                margin-top:  -15px;
+                margin-left: 130px;
+                z-index: 1
+            }
+        }
+    </style>
+</head>
+<body>
+<nav>
+    <ul>
+        <li><a href="#" target="_blank">
+            <button class="custom-btn btn-1">Понедельник</button>
+        </a>
+            <ul>
+                <li><a href="#" target="_blank">
+                    <button class="custom-btn btn-1">Завтрак</button>
+                </a></li>
+                <li><a href="#" target="_blank">
+                    <button class="custom-btn btn-1">Обед</button>
+                </a></li>
+                <li><a href="#" target="_blank">
+                    <button class="custom-btn btn-1">Ужин</button>
+                </a></li>
+            </ul>
+        </li>
+        <li><a href="#" target="_blank">
+            <button class="custom-btn btn-1">Вторник</button>
+        </a>
+            <ul>
+                <li><a href="#" target="_blank">
+                    <button class="custom-btn btn-1">Завтрак</button>
+                </a></li>
+                <li><a href="#" target="_blank">
+                    <button class="custom-btn btn-1">Обед</button>
+                </a></li>
+                <li><a href="#" target="_blank">
+                    <button class="custom-btn btn-1">Ужин</button>
+                </a></li>
+            </ul>
+        </li>
+        <li><a href="#" target="_blank">
+            <button class="custom-btn btn-1">Среда</button>
+        </a>
+            <ul>
+                <li><a href="#" target="_blank">
+                    <button class="custom-btn btn-1">Завтрак</button>
+                </a></li>
+                <li><a href="#" target="_blank">
+                    <button class="custom-btn btn-1">Обед</button>
+                </a></li>
+                <li><a href="#" target="_blank">
+                    <button class="custom-btn btn-1">Ужин</button>
+                </a></li>
+            </ul>
+        </li>
+        <li><a href="#" target="_blank">
+            <button class="custom-btn btn-1">Четверг</button>
+        </a>
+            <ul>
+                <li><a href="#" target="_blank">
+                    <button class="custom-btn btn-1">Завтрак</button>
+                </a></li>
+                <li><a href="#" target="_blank">
+                    <button class="custom-btn btn-1">Обед</button>
+                </a></li>
+                <li><a href="#" target="_blank">
+                    <button class="custom-btn btn-1">Ужин</button>
+                </a></li>
+            </ul>
+        </li>
+        <li><a href="#" target="_blank">
+            <button class="custom-btn btn-1">Пятница</button>
+        </a>
+            <ul>
+                <li><a href="#" target="_blank">
+                    <button class="custom-btn btn-1">Завтрак</button>
+                </a></li>
+                <li><a href="#" target="_blank">
+                    <button class="custom-btn btn-1">Обед</button>
+                </a></li>
+                <li><a href="#" target="_blank">
+                    <button class="custom-btn btn-1">Ужин</button>
+                </a></li>
+            </ul>
+        </li>
+        <li><a href="#" target="_blank">
+            <button class="custom-btn btn-1">Суббота</button>
+        </a>
+            <ul>
+                <li><a href="#" target="_blank">
+                    <button class="custom-btn btn-1">Завтрак</button>
+                </a></li>
+                <li><a href="#" target="_blank">
+                    <button class="custom-btn btn-1">Обед</button>
+                </a></li>
+                <li><a href="#" target="_blank">
+                    <button class="custom-btn btn-1">Ужин</button>
+                </a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+</body>
+</html>
